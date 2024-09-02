@@ -1,0 +1,63 @@
+.jockey-one-regular {
+    font-family: "Jockey One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    margin: 0;
+    background-color: #fafafa;
+    font-family: "Jockey One", sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: baseline;
+    gap: 50px;
+    margin-top: 2.5%;
+}
+
+h1{
+    margin-left: 5%;
+}
+
+.box {
+    position: relative;
+}
+
+.input {
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+    font-size: 26px;
+    color: #ffffff;
+    outline: none;
+    transition: .5s;
+}
+
+.box:hover input {
+    width: 350px;
+    background: #3b3640;
+    border-radius: 10px;
+}
+
+.box i {
+    position: absolute;
+    top: 40%;
+    right: -6px;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+    color: #000000;
+    transition: .2s;
+}
+
+.box:hover i {
+    opacity: 0;
+    z-index: -1;
+}
