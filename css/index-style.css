@@ -14,16 +14,22 @@ body {
 header{
     display: flex;
     align-items: baseline;
-    gap: 50px;
+    justify-content: space-between;
     margin-top: 2.5%;
+    padding-bottom: 2.5%;
+    border-bottom: #010101 solid 0.5px;
 }
 
 h1{
     margin-left: 5%;
 }
 
+nav{
+}
+
 .box {
     position: relative;
+    margin-right: 5%;
 }
 
 .input {
@@ -34,7 +40,7 @@ h1{
     border: 2px solid #000000;
     border-radius: 50px;
     box-sizing: border-box;
-    font-family: Comic Sans MS;
+    font-family: "Jockey One", sans-serif;
     font-size: 26px;
     color: #ffffff;
     outline: none;
