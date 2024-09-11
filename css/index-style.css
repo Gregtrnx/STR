@@ -23,10 +23,15 @@ h1 {
     margin-left: 5vw;
     margin-bottom: 0;
     position: relative;
-    text-shadow: 1px 3px 4px rgba(0,0,0,0.43);
+    text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.43);
 }
 
-.luffy{
+nav>ul{
+    padding: 0;
+    margin: 0;
+}
+
+.luffy {
     position: absolute;
     right: 125px;
     top: -15px;
@@ -34,45 +39,23 @@ h1 {
     z-index: -1;
 }
 
-nav {}
-
-.box {
-    position: relative;
-    margin-right: 5%;
+#search-bar {
+    height: 26px;
+    border-radius: 48px;
+    border: 0.5px solid lightgrey;
+    width: 100%;
 }
 
-.input {
-    padding: 10px;
-    width: 40px;
-    height: 40px;
-    background: none;
-    border: 2px solid #000000;
-    border-radius: 50px;
-    box-sizing: border-box;
-    font-family: "Jockey One", sans-serif;
-    font-size: 26px;
-    color: #ffffff;
-    outline: none;
-    transition: .5s;
-}
-
-.box:hover input {
-    width: 350px;
-    background: #3b3640;
-    border-radius: 10px;
-}
-
-.box i {
+#search-btn {
+    height: 26px;
+    border-top-right-radius: 48px;
+    border-bottom-right-radius: 48px;
+    font-size: 1.1em;
     position: absolute;
-    top: 40%;
-    right: -6px;
-    transform: translate(-50%, -50%);
-    font-size: 26px;
-    color: #000000;
-    transition: .2s;
+    right: 15px;
+    border-left: 0.5px solid lightgrey;
 }
 
-.box:hover i {
-    opacity: 0;
-    z-index: -1;
+.p-3{
+    padding: 0 !important;
 }
