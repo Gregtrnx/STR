@@ -6,6 +6,13 @@
     font-style: normal;
 }
 
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
 
 body {
     margin: 0;
@@ -13,12 +20,13 @@ body {
     font-family: "Jockey One", sans-serif;
 }
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
-  }
+}
 
 /***En-tête***/
 
@@ -110,6 +118,7 @@ input[type=radio] {
     margin: auto;
     transition: transform .4s ease;
     cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .container1 {
@@ -165,4 +174,94 @@ img {
     img {
         box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
     }
+}
+
+h2 {
+    margin-top: 10%;
+    margin-bottom: 0;
+    margin-left: 38%;
+    margin-right: 38%;
+    padding: 3px;
+    border: #010101 solid 2px;
+}
+
+/***Deuxième container***/
+
+input[type=radio] {
+    display: none;
+}
+
+.card2 {
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: transform .4s ease;
+    cursor: pointer;
+}
+
+.container2 {
+    width: 100%;
+    max-width: 500px;
+    max-height: 300px;
+    height: 100%;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.cards2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+#item-12:checked~.cards2 #song-32,
+#item-22:checked~.cards2 #song-12,
+#item-32:checked~.cards2 #song-22 {
+    transform: translatex(-40%) scale(.8);
+    opacity: .4;
+    z-index: 0;
+}
+
+#item-12:checked~.cards2 #song-22,
+#item-22:checked~.cards2 #song-32,
+#item-32:checked~.cards2 #song-12 {
+    transform: translatex(40%) scale(.8);
+    opacity: .4;
+    z-index: 0;
+}
+
+#item-12:checked~.cards2 #song-12,
+#item-22:checked~.cards2 #song-22,
+#item-32:checked~.cards2 #song-32 {
+    transform: translatex(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+
+    img {
+        box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+    }
+}
+
+.h2 {
+    margin-top: 10%;
+    margin-bottom: 0;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 3px;
+    border: #010101 solid 2px;
 }
