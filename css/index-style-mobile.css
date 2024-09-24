@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap");
 
-@media not all and (min-resolution: 0.001dpcm) { 
+@media not all and (min-resolution: 0.001dpcm) {
     @supports (-webkit-appearance:none) {
         /* Fix pour Safari mobile ici */
     }
@@ -15,7 +15,7 @@
 .montserrat {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -123,7 +123,7 @@ button:nth-child(3) {
 
 /***Titre***/
 
-.titre{
+.titre {
     font-size: x-large;
     width: 70%;
     margin-left: auto;
@@ -134,7 +134,7 @@ button:nth-child(3) {
 
 /***Carrousel***/
 
-.caro{
+.caro {
     margin-left: auto;
     margin-right: auto;
     margin-top: 5vw;
@@ -147,7 +147,7 @@ button:nth-child(3) {
 
 /***footer***/
 
-footer{
+footer {
     display: flex;
     margin-right: auto;
     margin-left: auto;
@@ -160,7 +160,7 @@ footer{
     border-radius: 20px;
 }
 
-.credit{
+.credit {
     display: flex;
     justify-content: center;
     color: black;
