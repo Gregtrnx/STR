@@ -104,10 +104,7 @@ form>*.clicked {
 button {
     border: none;
     background-color: #fafafa;
-    -webkit-appearance: none; /* Supprime l'apparence par défaut de WebKit */
-    -moz-appearance: none;
     color: inherit;
-
 }
 
 .nav>* {
